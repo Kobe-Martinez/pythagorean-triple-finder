@@ -5,19 +5,19 @@ This C program calculates the missing value in a Pythagorean triple, which consi
 ## How It Works
 
 1. **Input**:
-   - The program reads two integers from a specified text file.
+   - The program reads two integers from a specified text file
 
 2. **Validation**:
-   - It checks if the two integers can form a valid Pythagorean relationship.
+   - It checks if the two integers can form a valid Pythagorean relationship
 
 3. **Calculation**:
-   - If valid, the program calculates the missing side (either the hypotenuse or one of the legs).
-   - If not, it outputs `-1`.
+   - If valid, the program calculates the missing side (either the hypotenuse or one of the legs)
+   - If not, it outputs `-1`
 
 4. **Output**:
-   - The program outputs the calculated value or `-1` if no valid Pythagorean triple exists.
+   - The program outputs the calculated value or `-1` if no valid Pythagorean triple exists
 
-This implementation includes robust handling of edge cases and is designed for use with predefined test cases and randomized inputs for validation.
+This implementation includes robust handling of edge cases and is designed for use with predefined test cases and randomized inputs for validation
 
 ---
 
@@ -36,17 +36,14 @@ This implementation includes robust handling of edge cases and is designed for u
 ## Features
 
 - **Pythagorean Triple Verification**: 
-  - Given two integers, the program determines if they can form a valid Pythagorean triple.
-  - Outputs the third integer if valid or `-1` if not.
+  - Given two integers, the program determines if they can form a valid Pythagorean triple
+  - Outputs the third integer if valid or `-1` if not
     
 - **Test Cases**: 
-  - Includes sample input files in the `tests/` directory with expected outputs in the `answers/` directory.
-
-- **Autograder**: 
-  - Automates testing of the program against predefined and random test cases.
+  - Includes sample input files in the `tests/` directory with expected outputs in the `answers/` directory
     
 - **Makefile**: 
-  - Simplifies compilation with necessary compiler flags for error checking and debugging.
+  - Simplifies compilation with necessary compiler flags for error checking and debugging
 
 ---
 
@@ -79,16 +76,16 @@ This implementation includes robust handling of edge cases and is designed for u
 ## Code Structure
 
 - **pythagorean.c**:
-  - The primary source code for determining Pythagorean triples.
+  - The primary source code for determining Pythagorean triples
     
 - **Makefile**:
-  - Automates compilation with proper flags.
+  - Automates compilation with proper flags
      
 - **tests/**:
-  - Contains input files for testing.
+  - Contains input files for testing
      
 - **answers/**:
-  - Contains expected output files.
+  - Contains expected output files
 
 ---
 
@@ -103,7 +100,7 @@ This implementation includes robust handling of edge cases and is designed for u
 
 ## File Output
 
-- Outputs the missing value of a Pythagorean triple or `-1` if no triple exists.
+- Outputs the missing value of a Pythagorean triple or `-1` if no triple exists
 
 - **Example Output**:
   ```bash
@@ -123,4 +120,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Important Note
 
-This project emphasizes learning the Linux command line, compiling C programs, and understanding Pythagorean triples
+This project emphasizes learning the Linux command line, compiling C programs, and understanding Pythagorean triples.
